@@ -117,7 +117,7 @@ Cancelled   No-Show
 │   • Transaction management                                  │
 └─────────────────────────────────────────────────────────────┘
 
-###Technology Stack
+## Technology Stack
 
 Layer,Technology,Version,Purpose
 Backend,Java (Servlets & JSP),11+,Core programming
@@ -130,7 +130,7 @@ Charts,Chart.js,3.x,Data visualization
 Reports,iTextPDF,5.x,PDF export
 Version Control,Git,-,Source control
 
-🚀 Installation Guide
+## 🚀 Installation Guide
 Prerequisites
 [ ] Java JDK 11 or higher
 
@@ -221,7 +221,7 @@ $GLASSFISH_HOME/bin/asadmin start-domain
 $GLASSFISH_HOME/bin/asadmin list-applications
 Access the system via: http://localhost:8080/IHVS
 
-🗄️ Database Schema
+## 🗄️ Database Schema
 
 Table,Description,Key Fields
 users,All user accounts,"user_id, username, password_hash, role, is_active"
@@ -233,7 +233,7 @@ reminders,Automated reminders,"reminder_id, appointment_id, type, scheduled_time
 audit_log,Security audit trail,"log_id, user_id, action, details, ip_address, log_time"
 validation_log,Medical aid history,"validation_id, patient_id, provider_name, validation_result"
 
-Entity Relationship Diagram
+## Entity Relationship Diagram
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │     users       │     │    patients     │     │    doctors      │
 ├─────────────────┤     ├─────────────────┤     ├─────────────────┤
@@ -259,7 +259,7 @@ Entity Relationship Diagram
                         └─────────────────┘
 
 
-🔑 Live Demo Credentials
+## 🔑 Live Demo Credentials
 
   Role , Username, Password, Purpose
 👑 Admin, admin, admin123, Full system access
@@ -267,7 +267,7 @@ Entity Relationship Diagram
 👤 Patient, nolwazi, patient123, Book appointments
 🛡️ Medical Aid ,sfiso, med123, Validate claims
 
-🔐 Security Features
+## 🔐 Security Features
 
 Feature,               Implementation,             Description
 Password Hashing,     jBCrypt (work factor 12),    Handled securely via PasswordUtil.java
@@ -278,7 +278,7 @@ SQL Injection Guard,  PreparedStatement,          Strictly used across all funct
 Input Validation,    Client + Server-side,          Double-layered checking with JSPs & Servlets
 Error Handling,  Custom error pages,             Beautiful mappings for error404.jsp & error500.jsp
 
-📁 Project Structure
+## 📁 Project Structure
 IHVS/
 ├── src/
 │   ├── controller/           # Servlets handling requests
@@ -311,7 +311,7 @@ IHVS/
     └── database_scripts.sql
 
 
-🤝 Contributing
+## 🤝 Contributing
 Fork the repository.
 
 Create your feature branch: git checkout -b feature/amazing-feature
@@ -329,10 +329,10 @@ Use PreparedStatement variants exclusively for query execution.
 
 Ensure code modifications match default audit trace specifications.
 
-📄 License
+## 📄 License
 This project is for academic purposes. All rights reserved © 2026 A-Team, University of South Africa.
 
-📞 Contact & Support
+## 📞 Contact & Support
 Project Manager: B.B. Magagule
 
 Developer Team: N. Mchunu, M.P. Khumalo, S.S. Mnisi, G. Mmeia, M. Mampholo
@@ -341,10 +341,10 @@ Course: Software Project Assessment 1
 
 Institution: Tshwane University of Technology
 
-🏆 Acknowledgements
+## 🏆 Acknowledgements
 The Open-source community for GlassFish, Derby, and UI styling utilities.
 
-📌 Quick Links
+## 📌 Quick Links
 GlassFish Documentation
 
 Apache Derby Documentation
