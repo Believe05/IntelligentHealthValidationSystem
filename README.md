@@ -157,7 +157,7 @@ IHVS_INTELLIGENT/
 
 To display the screenshots above, create an `images/` folder in the root of your repo and upload these files into it:
 
-```
+
 images/
 ├── homepage.PNG
 ├── admin1.PNG
@@ -165,7 +165,7 @@ images/
 ├── doctor.PNG
 ├── medAid.PNG
 └── patient.PNG
-```
+
 
 ---
 
